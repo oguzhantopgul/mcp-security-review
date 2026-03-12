@@ -1,6 +1,6 @@
 # MCP Security Controls Library
 
-> Comprehensive mitigations from all four source frameworks, indexed by control type and applicable vulnerability IDs.
+> Mitigations indexed by control type and applicable vulnerability IDs. Mapped to OWASP MCP Top 10, OWASP GenAI Dev Guide, and OWASP GenAI Cheat Sheet.
 
 ---
 
@@ -505,7 +505,7 @@ docker run \
 
 **Governance workflow for approving MCP servers in enterprise:**
 1. **Discovery** — Developer proposes new MCP server via ticket
-2. **Review** — Security team runs this skill's Mode 2 review on the server
+2. **Review** — Security team runs an MCP security review on the server
 3. **Approval** — CISO/security lead approves based on risk rating
 4. **Registration** — Server added to approved MCP registry with pinned version
 5. **Monitoring** — Continuous scanning for version changes, new CVEs
